@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Адмінка - ARK UA</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Панель адміністратора</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="dinosaurs.html">Динозаври</a>
+    </nav>
+  </header>
+  <main>
+    <button id="login-btn">Увійти через Google</button>
+    <form id="dino-form" style="display:none;">
+      <input type="text" id="name" placeholder="Назва динозавра" required/>
+      <textarea id="description" placeholder="Опис" required></textarea>
+      <button type="submit">Додати</button>
+    </form>
+  </main>
+  <script type="module" src="scripts/admin.js"></script>
+</body>
+</html>
